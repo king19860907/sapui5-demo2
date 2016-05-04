@@ -34,6 +34,11 @@ sap.ui.define([
         handleTileDelete : function (evt) {
             var tile = evt.getParameter("tile");
             evt.getSource().removeTile(tile);
+        },
+        tilePress : function (evt) {
+            alert('aaa');
+            var sRef = evt.getSource().data("ref");
+            alert(sRef);
         }
     });
 

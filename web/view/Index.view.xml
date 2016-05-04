@@ -2,6 +2,7 @@
         height="100%"
         controllerName="sap.m.sample.controller.Index"
         xmlns:mvc="sap.ui.core.mvc"
+        xmlns:core="sap.ui.core"
         xmlns="sap.m">
     <Page
             showHeader="false"
@@ -17,7 +18,12 @@
                     numberUnit="{numberUnit}"
                     title="{title}"
                     info="{info}"
-                    infoState="{infoState}" />
+                    infoState="{infoState}"
+                    press = "tilePress">
+                <customData>
+                    <core:CustomData key="ref" value="{ref}"/>
+                </customData>
+            </StandardTile>
         </TileContainer>
         <footer>
             <Toolbar>
