@@ -5,7 +5,7 @@
       "type" : "Monitor",
       "title" : "hello world",
       "info" : "test",
-      "ref" : "refvalue"
+      "ref" : "/helloWorld/index.html"
     },
     {
       "icon" : "inbox",

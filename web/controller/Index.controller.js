@@ -36,9 +36,8 @@ sap.ui.define([
             evt.getSource().removeTile(tile);
         },
         tilePress : function (evt) {
-            alert('aaa');
             var sRef = evt.getSource().data("ref");
-            alert(sRef);
+            sap.m.URLHelper.redirect(sRef,true);
         }
     });
 
