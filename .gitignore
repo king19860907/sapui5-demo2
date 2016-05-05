@@ -1,8 +1,10 @@
 /META-INF/
 .classpath
-.project
-.settings/
-target/
-.tomcatplugin
-.idea/
-out/
+    .project
+    .settings/
+    target/
+    .tomcatplugin
+    .idea/
+    out/
+    idea
+    .idea

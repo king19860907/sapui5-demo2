@@ -2,17 +2,15 @@
   "TileCollection" : [
     {
       "icon" : "hint",
-      "type" : "Monitor",
       "title" : "hello world",
       "info" : "test",
       "ref" : "/helloWorld/index.html"
     },
     {
       "icon" : "inbox",
-      "number" : "89",
-      "title" : "Approve Leave Requests",
-      "info" : "Overdue",
-      "infoState" : "Error"
+      "title" : "Responsive Table",
+      "info" : "Table-Columns",
+      "ref" : "/table/index.html"
     },
     {
       "type" : "Create",
