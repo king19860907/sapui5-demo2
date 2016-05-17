@@ -27,7 +27,8 @@
             new sap.m.App ({
                 pages: [
                     new sap.m.Page({
-                        showHeader:false,
+                        title : "User Login",
+                        showHeader:true,
                         enableScrolling : true,
                         content: [ new sap.ui.core.ComponentContainer({
                             height : "100%", name : "sap.m.sample.login"

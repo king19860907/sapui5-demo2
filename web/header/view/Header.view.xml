@@ -5,21 +5,8 @@
         xmlns:core="sap.ui.core"
         xmlns="sap.m">
     <tnt:ToolHeader>
-        <Button icon="sap-icon://menu2" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="NeverOverflow" />
-            </layoutData>
-        </Button>
         <ToolbarSpacer />
-        <core:Icon src="sap-icon://activate">
-        </core:Icon>
-        <Text text="Name of the Tool" wrapping="false">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Disappear" />
-            </layoutData>
-        </Text>
-        <ToolbarSpacer />
-        <Button text="Alan Smith" type="Transparent" press="handleUserNamePress">
+        <Button id="loginInfo" text="" type="Transparent" press="handleUserNamePress">
             <layoutData>
                 <OverflowToolbarLayoutData priority="NeverOverflow" />
             </layoutData>

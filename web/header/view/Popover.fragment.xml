@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <Popover
+            title="aaa"
+            class="sapMOTAPopover sapTntToolHeaderPopover"
+            placement="Bottom"
+            showHeader="false"
+            >
+        <Button
+                id="feedback"
+                text="feedback"
+                press="feedbackHandler"
+                type="Transparent"
+        />
+        <Button
+                id="help"
+                text="help"
+                press="helpHandler"
+                type="Transparent"
+        />
+        <Button
+                id="logout"
+                text="Logout"
+                press="logoutHandler"
+                type="Transparent"
+        />
+    </Popover>
+</core:FragmentDefinition>
