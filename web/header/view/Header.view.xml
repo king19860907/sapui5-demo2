@@ -1,5 +1,5 @@
 <mvc:View
-        controllerName="sap.m.sample.login.controller.Login"
+        controllerName="sap.m.sample.header.controller.Header"
         xmlns:mvc="sap.ui.core.mvc"
         xmlns:tnt="sap.tnt"
         xmlns:core="sap.ui.core"

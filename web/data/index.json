@@ -22,7 +22,7 @@
       "icon" : "inbox",
       "title" : "Login",
       "info" : "User Login",
-      "ref" : "/login/index.html"
+      "ref" : "/login/index.jsp"
     },
     {
       "icon" : "loan",
