@@ -1,0 +1,37 @@
+<mvc:View
+        controllerName="sap.m.sample.tab.controller.IconTabBar"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:l="sap.ui.layout"
+        xmlns="sap.m">
+
+    <IconTabBar
+            id="idIconTabBarStretchContent"
+            stretchContentHeight="true"
+            backgroundDesign="Transparent"
+            applyContentPadding="false"
+            expanded="{device>/isNoPhone}"
+            class="sapUiResponsiveContentPadding"
+            select="selectHandler"
+            selectedKey="tab2"
+            >
+        <items>
+            <IconTabFilter
+                    text="Products" key="tab1">
+                <Text text="Products go here ..." />
+            </IconTabFilter>
+            <IconTabFilter
+                    text="Attachments" key="tab2">
+                <Text text="Attachments go here ..." />
+            </IconTabFilter>
+            <IconTabFilter
+                    text="Notes">
+                <Text text="Notes go here ..." />
+            </IconTabFilter>
+            <IconTabFilter
+                    text="People">
+                <Text text="People content goes here ..." />
+            </IconTabFilter>
+        </items>
+    </IconTabBar>
+
+</mvc:View>
