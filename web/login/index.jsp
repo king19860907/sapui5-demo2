@@ -9,12 +9,12 @@
 
     <script id="sap-ui-bootstrap"
             src="/resources/sap-ui-core.js"
-            data-sap-ui-libs="sap.m"
-            data-sap-ui-theme="sap_bluecrystal"
-            data-sap-ui-xx-bindingSyntax="complex"
-            data-sap-ui-preload="async"
-            data-sap-ui-compatVersion="edge"
-            data-sap-ui-resourceroots='{"sap.m.sample.login": "/login/"}'>
+    data-sap-ui-libs="sap.m"
+    data-sap-ui-theme="sap_bluecrystal"
+    data-sap-ui-xx-bindingSyntax="complex"
+    data-sap-ui-preload="async"
+    data-sap-ui-compatVersion="edge"
+    data-sap-ui-resourceroots='{"sap.m.sample.login": "/login/"}'>
     </script>
 
     <!-- Application launch configuration -->
@@ -24,7 +24,7 @@
             new sap.m.App ({
                 pages: [
                     new sap.m.Page({
-                        title: "Login",
+                        showHeader:false,
                         enableScrolling : true,
                         content: [ new sap.ui.core.ComponentContainer({
                             height : "100%", name : "sap.m.sample.login"
@@ -38,7 +38,11 @@
 </head>
 
 <!-- UI Content -->
-<body class="sapUiBody" id="content" role="application">
+<body class="sapUiBody" role="application">
+    <%@ include file="header.html" %>
+    <div id="content">
+
+    </div>
 </body>
 
 </html>
