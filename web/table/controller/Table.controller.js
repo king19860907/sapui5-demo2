@@ -13,6 +13,15 @@ sap.ui.define([
         onInit: function () {
             var oModel = new JSONModel("/table/data/table.json");
             this.getView().setModel(oModel);
+        },
+        updateFinishedHandler : function (evt) {
+            var oTable = this.byId("idProductsTable");
+            var growingInfo = oTable.getGrowingInfo();
+            //alert(JSON.stringify(growingInfo));
+            var oBinding = oTable.getBinding("items");
+            //alert(oBinding.getLength());
+            //var oItems = oTable.getItems(true);
+            //alert(oItems);
         }
 
     });

@@ -6,6 +6,9 @@
 
     <Table id="idProductsTable"
         inset="false"
+        growing="true"
+        growingThreshold="5"
+        updateFinished = "updateFinishedHandler"
         items="{
             path:'/ProductCollection',
             sorter: {
