@@ -8,6 +8,15 @@ sap.ui.define(['sap/ui/core/UIComponent'],function(UIComponent){
     var Component = UIComponent.extend("sap.m.sample.tab.Component",{
         metadata :{
             rootView : "sap.m.sample.tab.view.IconTabBar"
+        },
+        dependencies : {
+            libs : [
+                "sap.m",
+                "sap.ui.layout"
+            ],
+            components : [
+                "sap.m.sample.Table"
+            ]
         }
     });
 

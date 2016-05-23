@@ -11,6 +11,7 @@ sap.ui.define([
     "use strict";
     var TableController = Controller.extend("sap.m.sample.table.controller.Table",{
         onInit: function () {
+            //alert('bbb');
             var oModel = new JSONModel("/table/data/table.json");
             this.getView().setModel(oModel);
         },
