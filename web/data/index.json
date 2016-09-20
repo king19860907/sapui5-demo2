@@ -28,8 +28,9 @@
       "icon" : "loan",
       "number" : "2380",
       "numberUnit" : "euro",
-      "title" : "My Salary",
-      "info" : "8 days ago"
+      "title" : "Router",
+      "info" : "Router",
+      "ref" : "/router/index.html"
     },
     {
       "icon" : "lab",
