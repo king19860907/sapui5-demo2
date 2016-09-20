@@ -13,7 +13,7 @@ sap.ui.define([
         selectHandler : function (evt) {
             //alert(evt.getParameter('item').getKey());
             //alert(evt.getParameter('item').getText());
-            //alert(this._oTable);
+            //alert(this._oTable);；
             if(evt.getParameter('item').getKey()==='tab2' && (typeof (this._oTable) == 'undefined' || this._oTable == null)){
                 this.getView().byId("idIconTabBarStretchContent").removeContent(0);
                 this._loginInfo = null;

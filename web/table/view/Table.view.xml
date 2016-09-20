@@ -48,6 +48,10 @@
                     hAlign="Right">
                 <Text text="Price" />
             </Column>
+            <Column
+                    hAlign="Left">
+                <Text text="Billing Progress" />
+            </Column>
         </columns>
         <items>
             <ColumnListItem>
@@ -73,6 +77,14 @@
 								formatOptions: {showMeasure: false}
 							}"
                             unit="{CurrencyCode}" />
+                    <ProgressIndicator
+                            class="sapUiSmallMarginBottom"
+                            percentValue="30"
+                            displayValue="3280/0"
+                            height="20px"
+                            width="80%"
+                            showValue="true"
+                            state="None" />
                 </cells>
             </ColumnListItem>
         </items>
