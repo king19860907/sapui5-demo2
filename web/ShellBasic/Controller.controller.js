@@ -75,9 +75,55 @@ sap.ui.define([
 			this._overlay.setShell(this.getView().byId("myShell"));
 			this._overlay.open();
 		},
-		select:function () {
+		select:function (oEvent) {
+			var item = oEvent.getParameter('item');
+			var key = item.getKey();
+			var page;
+			if(key == 'page1'){
+				page = this.getpage1();
+			}else{
+				page = this.getpage2();
+			}
 			var navCon = this.getView().byId("navCon");
-			navCon.to(this.getView().byId("p2"),null);
+			navCon.to(page,null);
+		},
+		clearContent:function () {
+			this.getView().byId("p2").destroyContent();
+			this.getView().byId("p3").destroyContent();
+		},
+		getpage2:function () {
+			var content = sap.ui.xmlfragment(
+				"sap.ui.unified.sample.ShellBasic.Rates",
+				this
+			);
+			var page = this.getView().byId("p3");
+			this.clearContent();
+			page.insertContent(content,0);
+			return page;
+		},
+		getpage1:function () {
+			var content = sap.ui.xmlfragment(
+				"sap.ui.unified.sample.ShellBasic.ShellOverlay",
+				this
+			);
+			var aResultData = [];
+			for(var i = 0; i < 10; i++) {
+				aResultData.push({
+					title:(i + 1) + ". " + 'aaa',
+					text:"Lorem ipsum sit dolem"
+				});
+			}
+			var oData = {
+				searchFieldContent: 'aaa',
+				resultData: aResultData
+			};
+			var oModel = new JSONModel();
+			oModel.setData(oData);
+			var page = this.getView().byId("p2");
+			page.setModel(oModel);
+			this.clearContent();
+			page.insertContent(content,0);
+			return page;
 		}
 	});
 

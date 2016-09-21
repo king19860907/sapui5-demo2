@@ -1,0 +1,73 @@
+<core:FragmentDefinition xmlns="sap.m"
+                         xmlns:core="sap.ui.core"
+                         xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+
+
+    <Table noDataText="Drop column list items here and columns in the area above" growing="true" fixedLayout="false" growingThreshold="50" growingScrollToLoad="true" includeItemInSelection="true">
+        <items>
+            <ColumnListItem counter="0" type="Navigation">
+                <cells>
+                    <Text text="Row 1 Cell 1" maxLines="0" id="aaa" />
+                    <Text text="Row 1 Cell 2" maxLines="0" id="bbb"/>
+                    <Text text="Row 1 Cell 3" maxLines="0" />
+                    <Text text="Row 1 Cell 4" maxLines="0" />
+                    <Text text="Row 1 Cell 5" maxLines="0" />
+                    <Text text="No text specified" maxLines="0" />
+                    <Text text="No text specified" maxLines="0" /></cells>
+            </ColumnListItem>
+            <ColumnListItem counter="0" type="Navigation">
+                <cells>
+                    <Text text="Row 2 Cell 1" maxLines="0" />
+                    <Text text="Row 2 Cell 2" maxLines="0" />
+                    <Text text="Row 2 Cell 3" maxLines="0" />
+                    <Text text="Row 2 Cell 4" maxLines="0" />
+                    <Text text="Row 2 Cell 5" maxLines="0" />
+                    <Text text="No text specified" maxLines="0" />
+                    <Text text="No text specified" maxLines="0" /></cells>
+            </ColumnListItem></items>
+        <columns>
+            <Column >
+                <header>
+                    <Label text="Doc. No." />
+                </header>
+            </Column>
+            <Column>
+                <header>
+                    <Label text="Customer"/>
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Text text="Overall Status" maxLines="0"/>
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Text text="Stock Status" maxLines="0" />
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Text text="Logistics Status" maxLines="0" />
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Label text="Payment Staus"/>
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Text text="Fulfillment Method" maxLines="0" />
+                </header>
+            </Column></columns>
+        <headerToolbar>
+            <OverflowToolbar width="100%" >
+                <content>
+                    <SearchField placeholder="Search" selectOnFocus="false" width="30%"/>
+                    <sap.ui.commons:Button xmlns:sap.ui.commons="sap.ui.commons" width="50px"  lite="true" icon="sap-icon://sort" height="100%"/>
+                    <Button text="Button" width="100px" />
+                </content>
+            </OverflowToolbar>
+        </headerToolbar></Table>
+</core:FragmentDefinition>

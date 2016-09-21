@@ -40,10 +40,12 @@
 				<tnt:NavigationList id="navigationList" width="320px" itemSelect="select">
 		        <tnt:NavigationListItem
 		                text="Item 1"
+						id="page1"
+						key="page1"
 		                icon="sap-icon://employee">
-		            <tnt:NavigationListItem text="Sub Item 1">
+		            <tnt:NavigationListItem text="Sub Item 1" id="page1-1" key="page1">
 		            </tnt:NavigationListItem>
-		            <tnt:NavigationListItem text="Sub Item 2">
+		            <tnt:NavigationListItem text="Sub Item 2" id="page1-2" key="page2">
 		            </tnt:NavigationListItem>
 		            <tnt:NavigationListItem text="Sub Item 3">
 		            </tnt:NavigationListItem>
@@ -67,8 +69,8 @@
 			<u:content>
 				<NavContainer
 						id="navCon"
-						width="98%"
-						height="16em"
+						width="100%"
+						height="100%"
 						class="navContainerControl sapUiSmallMarginBottom">
 					<Page
 							id="p1"
@@ -78,12 +80,11 @@
 					<Page
 							id="p2"
 							title="Page 2" >
-						<footer><Toolbar><Button text="Action 2" /></Toolbar></footer>
+
 					</Page>
 					<Page
 							id="p3"
 							title="Page 3" >
-						<footer><Toolbar><Button text="Action 3" /></Toolbar></footer>
 					</Page>
 					<Page
 							id="p4"

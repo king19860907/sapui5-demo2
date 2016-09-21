@@ -5,7 +5,7 @@
 	xmlns:u="sap.ui.unified"
 	class="viewPadding">
 		<u:ShellOverlay
-			closed="handleShellOverlayClosed">
+			closed="handleShellOverlayClosed" width="100%">
 			<u:content>
 				<l:VerticalLayout
 					width="100%">
