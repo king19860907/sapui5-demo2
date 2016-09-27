@@ -5,7 +5,7 @@
 
     <Table noDataText="Drop column list items here and columns in the area above" growing="true" fixedLayout="false" growingThreshold="50" growingScrollToLoad="true" includeItemInSelection="true">
         <items>
-            <ColumnListItem counter="0" type="Navigation">
+            <ColumnListItem counter="0" type="Navigation" press="testPress">
                 <cells>
                     <Text text="Row 1 Cell 1" maxLines="0" id="aaa" />
                     <Text text="Row 1 Cell 2" maxLines="0" id="bbb"/>

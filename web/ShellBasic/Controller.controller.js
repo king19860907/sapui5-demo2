@@ -3,8 +3,9 @@ sap.ui.define([
 		'sap/m/MessageToast',
 		'sap/ui/core/Fragment',
 		'sap/ui/core/mvc/Controller',
-		'sap/ui/model/json/JSONModel'
-	], function(jQuery, MessageToast, Fragment, Controller, JSONModel) {
+		'sap/ui/model/json/JSONModel',
+		'sap/ui/unified/sample/ShellBasic/RatesController'
+	], function(jQuery, MessageToast, Fragment, Controller, JSONModel,RatesController) {
 	"use strict";
 
 	var ControllerController = Controller.extend("sap.ui.unified.sample.ShellBasic.Controller", {
@@ -92,9 +93,17 @@ sap.ui.define([
 			this.getView().byId("p3").destroyContent();
 		},
 		getpage2:function () {
+
+			var controller = {
+				testPress:function (event) {
+					alert('bbb');
+					alert(event);
+				}
+			};
+
 			var content = sap.ui.xmlfragment(
 				"sap.ui.unified.sample.ShellBasic.Rates",
-				this
+				RatesController
 			);
 			var page = this.getView().byId("p3");
 			this.clearContent();
@@ -124,6 +133,9 @@ sap.ui.define([
 			this.clearContent();
 			page.insertContent(content,0);
 			return page;
+		},
+		testPress:function () {
+			alert('aaa');
 		}
 	});
 
