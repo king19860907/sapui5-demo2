@@ -1,0 +1,40 @@
+<mvc:View
+        controllerName="sap.m.sample.shellBasic2.controller.Left"
+        xmlns:l="sap.ui.layout"
+        xmlns:u="sap.ui.unified"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        xmlns:tnt="sap.tnt"
+        class="viewPadding">
+
+
+    <tnt:NavigationList id="navigationList" width="320px" itemSelect="select">
+        <tnt:NavigationListItem
+                text="Item 1"
+                id="page1"
+                key="page1"
+                icon="sap-icon://employee">
+            <tnt:NavigationListItem text="Sub Item 1" id="page1-1" key="page1">
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Sub Item 2" id="page1-2" key="page2">
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Sub Item 3" id="page1-3" key="page3">
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Sub Item 4">
+            </tnt:NavigationListItem>
+        </tnt:NavigationListItem>
+        <tnt:NavigationListItem
+                text="Item 2"
+                icon="sap-icon://building">
+            <tnt:NavigationListItem text="Sub Item 1">
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Sub Item 2">
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Sub Item 3">
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Sub Item 4">
+            </tnt:NavigationListItem>
+        </tnt:NavigationListItem>
+    </tnt:NavigationList>
+
+</mvc:View>
