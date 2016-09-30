@@ -82,6 +82,9 @@ sap.ui.define([
 			var page;
 			if(key == 'page1'){
 				page = this.getpage1();
+			}else if(key == 'page3'){
+				alert('aaa');
+				this.getOwnerComponent().getRouter().navTo("page2");
 			}else{
 				page = this.getpage2();
 			}

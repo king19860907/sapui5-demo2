@@ -1,0 +1,16 @@
+<mvc:View
+        xmlns:l="sap.ui.layout"
+        xmlns:u="sap.ui.unified"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        xmlns:tnt="sap.tnt"
+        class="viewPadding">
+
+
+    <Page
+            id="p1"
+            title="Page 1" >
+        <footer><Toolbar><Button text="Action 1" /></Toolbar></footer>
+    </Page>
+
+</mvc:View>

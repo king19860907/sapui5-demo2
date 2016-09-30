@@ -5,7 +5,6 @@ sap.ui.define(['sap/ui/core/UIComponent'],
 	var Component = UIComponent.extend("sap.ui.unified.sample.ShellBasic.Component", {
 
 		metadata : {
-			rootView : "sap.ui.unified.sample.ShellBasic.View",
 			dependencies : {
 				libs : [
 					"sap.ui.unified",
@@ -24,9 +23,52 @@ sap.ui.define(['sap/ui/core/UIComponent'],
 						"ShellOverlay.fragment.xml"
 					]
 				}
-			}
+			},
+			routing:{
+				config:{
+					routerClass:"sap.m.routing.Router",
+					viewPath:"sap.ui.unified.sample.ShellBasic",
+					controlId:"rootControl",
+					controlAggregation:"pages",
+					viewType:"XML"
+				},
+				routes:[
+					{
+						name:"page1",
+						//如果为控,则默认为开始页
+						pattern:"",
+						target:"page1"
+					},
+					{
+						name:"page2",
+						pattern:"Page2",
+						target:"page2"
+					},
+				],
+				targets:{
+					page1:{
+						viewName:"View1",
+						viewLevel:0
+					},
+					page2:{
+						viewName:"View2",
+						viewLevel:1
+					},
+				},
+
+			},
+		},
+		init:function () {
+			UIComponent.prototype.init.apply(this,arguments);
+			this.getRouter().initialize();
 		}
+
 	});
+
+		Component.prototype.createContent = function () {
+			this._rootView = sap.ui.xmlview({ viewName : "sap.ui.unified.sample.ShellBasic.Router"});
+			return this._rootView;
+		};
 
 	return Component;
 

@@ -42,7 +42,7 @@
         <u:content>
 
         </u:content>-->
-        <!--<u:content>
+        <u:content>
             <NavContainer
                     id="navCon"
                     width="100%"
@@ -50,6 +50,6 @@
                     class="navContainerControl sapUiSmallMarginBottom">
 
             </NavContainer>
-        </u:content>-->
+        </u:content>
     </u:Shell>
 </View>

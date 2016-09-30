@@ -31,12 +31,32 @@ sap.ui.define([
                         name:"home",
                         target:"home"
                     },
+                    {
+                        name:"page1",
+                        pattern:"page1",
+                        target:["home","page1"]
+                    },
+                    {
+                        name:"page2",
+                        pattern:"Page2",
+                        target:["home","page2"]
+                    },
                 ],
                 targets:{
                     home:{
                         viewName:"Home",
                         viewLevel:1,
                         controlAggregation:"masterPages"
+                    },
+                    page1:{
+                        viewName:"Page1",
+                        viewLevel:2,
+                        controlAggregation:"detailPages"
+                    },
+                    page2:{
+                        viewName:"Page2",
+                        viewLevel:2,
+                        controlAggregation:"detailPages"
                     },
                 },
             },
@@ -46,6 +66,8 @@ sap.ui.define([
             UIComponent.prototype.init.apply(this, arguments);
 
             this._router = this.getRouter();
+
+            //this._router.getTargets().display("page1");
 
             this._router.initialize();
         },

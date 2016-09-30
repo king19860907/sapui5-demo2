@@ -47,7 +47,7 @@
 		            </tnt:NavigationListItem>
 		            <tnt:NavigationListItem text="Sub Item 2" id="page1-2" key="page2">
 		            </tnt:NavigationListItem>
-		            <tnt:NavigationListItem text="Sub Item 3">
+		            <tnt:NavigationListItem text="Sub Item 3" id="page1-3" key="page3">
 		            </tnt:NavigationListItem>
 		            <tnt:NavigationListItem text="Sub Item 4">
 		            </tnt:NavigationListItem>

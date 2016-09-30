@@ -32,6 +32,11 @@ sap.ui.define([
                         target:"left"
                     },
                     {
+                        name:"right",
+                        pattern:"right",
+                        target:["left","right"],
+                    },
+                    {
                         name:"page1",
                         pattern:"page1",
                         target:["left","page1"]
@@ -48,15 +53,22 @@ sap.ui.define([
                         viewLevel:0,
                         controlAggregation:"paneContent"
                     },
+                    right:{
+                        viewName:"Right",
+                        viewLevel:1,
+                        controlAggregation:"content"
+                    },
                     page1:{
                         viewName:"Page1",
                         viewLevel:1,
-                        controlAggregation:"content"
+                        controlId:"navCon",
+                        controlAggregation:"pages"
                     },
                     page2:{
                         viewName:"Page2",
                         viewLevel:1,
-                        controlAggregation:"content"
+                        controlId:"navCon",
+                        controlAggregation:"pages"
                     },
                 },
             },

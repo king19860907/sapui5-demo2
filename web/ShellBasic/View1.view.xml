@@ -1,0 +1,97 @@
+<mvc:View
+        controllerName="sap.ui.unified.sample.ShellBasic.Controller"
+        xmlns:l="sap.ui.layout"
+        xmlns:u="sap.ui.unified"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        xmlns:tnt="sap.tnt"
+        class="viewPadding">
+    <u:Shell
+            id="myShell"
+            icon="{/logo}">
+        <u:headItems>
+            <u:ShellHeadItem
+                    tooltip="Configuration"
+                    icon="sap-icon://menu2"
+                    press="handlePressConfiguration" />
+            <u:ShellHeadItem
+                    tooltip="Home"
+                    icon="sap-icon://home"
+                    visible="false"
+                    press="handlePressHome" />
+        </u:headItems>
+        <u:headEndItems>
+            <u:ShellHeadItem
+                    icon="sap-icon://log"
+                    tooltip="Logoff"
+                    press="handleLogoffPress" />
+        </u:headEndItems>
+        <u:user>
+            <u:ShellHeadUserItem
+                    image="sap-icon://person-placeholder"
+                    username="Karl Mustermann"
+                    press="handleUserItemPressed" />
+        </u:user>
+        <u:search>
+            <SearchField
+                    search="handleSearchPressed"/>
+        </u:search>
+        <u:paneContent>
+            <tnt:NavigationList id="navigationList" width="320px" itemSelect="select">
+                <tnt:NavigationListItem
+                        text="Item 1"
+                        id="page1"
+                        key="page1"
+                        icon="sap-icon://employee">
+                    <tnt:NavigationListItem text="Sub Item 1" id="page1-1" key="page1">
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem text="Sub Item 2" id="page1-2" key="page2">
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem text="Sub Item 3" id="page1-3" key="page3">
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem text="Sub Item 4">
+                    </tnt:NavigationListItem>
+                </tnt:NavigationListItem>
+                <tnt:NavigationListItem
+                        text="Item 2"
+                        icon="sap-icon://building">
+                    <tnt:NavigationListItem text="Sub Item 1">
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem text="Sub Item 2">
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem text="Sub Item 3">
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem text="Sub Item 4">
+                    </tnt:NavigationListItem>
+                </tnt:NavigationListItem>
+            </tnt:NavigationList>
+        </u:paneContent>
+        <u:content>
+            <NavContainer
+                    id="navCon"
+                    width="100%"
+                    height="100%"
+                    class="navContainerControl sapUiSmallMarginBottom">
+                <Page
+                        id="p1"
+                        title="Page 1" >
+                    <footer><Toolbar><Button text="Action 1" /></Toolbar></footer>
+                </Page>
+                <Page
+                        id="p2"
+                        title="Page 2" >
+
+                </Page>
+                <Page
+                        id="p3"
+                        title="Page 3" >
+                </Page>
+                <Page
+                        id="p4"
+                        title="Page 4" >
+                    <footer><Toolbar><Button text="Action 4" /></Toolbar></footer>
+                </Page>
+            </NavContainer>
+        </u:content>
+    </u:Shell>
+</mvc:View>
