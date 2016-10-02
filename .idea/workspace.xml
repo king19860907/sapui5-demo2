@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420baa38-1b62-488a-87dd-48d4fd500bc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ShellBasic/App.view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ShellBasic/Router.view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ShellBasic/View1.view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ShellBasic/View2.view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/SplitApp/controller/Home.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/SplitApp/view/Page1.view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/SplitApp/view/Page2.view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ShellBasic2/controller/Page2.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ShellBasic2/view/Page3.view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ShellBasic/Component.js" afterPath="$PROJECT_DIR$/web/ShellBasic/Component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ShellBasic/Controller.controller.js" afterPath="$PROJECT_DIR$/web/ShellBasic/Controller.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ShellBasic/View.view.xml" afterPath="$PROJECT_DIR$/web/ShellBasic/View.view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ShellBasic2/Component.js" afterPath="$PROJECT_DIR$/web/ShellBasic2/Component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml" afterPath="$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/SplitApp/Component.js" afterPath="$PROJECT_DIR$/web/SplitApp/Component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/SplitApp/view/Home.view.xml" afterPath="$PROJECT_DIR$/web/SplitApp/view/Home.view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml" afterPath="$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml" />
     </list>
     <ignored path="sapui-demo2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,51 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/Component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page2.view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page2.view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/SplitApp/view/Page2.view.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/SplitApp/view/App.view.xml">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="178">
+              <caret line="21" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ShellBasic/View.view.xml">
+      <file leaf-file-name="App.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/App.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="21" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,18 +52,28 @@
       <file leaf-file-name="Left.view.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Left.view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.view.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml">
+      <file leaf-file-name="Left.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/Left.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="51" column="27" selection-start-line="45" selection-start-column="12" selection-end-line="51" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page2.view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="63" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -119,7 +89,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/Component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1117">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page2.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/Page2.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page3.view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Page3.view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/ShellBasic2/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -150,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/tab/data/tab.json" />
-        <option value="$PROJECT_DIR$/web/login/login/Login.view.xml" />
         <option value="$PROJECT_DIR$/web/login/controller/Login.controller.js" />
         <option value="$PROJECT_DIR$/web/login/view/footer.html" />
         <option value="$PROJECT_DIR$/web/login/index.html" />
@@ -196,11 +194,13 @@
         <option value="$PROJECT_DIR$/web/ShellBasic2/view/Left.view.xml" />
         <option value="$PROJECT_DIR$/web/ShellBasic2/controller/App.controller.js" />
         <option value="$PROJECT_DIR$/web/ShellBasic2/view/Page1.view.xml" />
-        <option value="$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml" />
         <option value="$PROJECT_DIR$/web/ShellBasic2/controller/Left.controller.js" />
         <option value="$PROJECT_DIR$/web/ShellBasic2/view/Right.view.xml" />
-        <option value="$PROJECT_DIR$/web/ShellBasic2/Component.js" />
         <option value="$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml" />
+        <option value="$PROJECT_DIR$/web/ShellBasic2/view/Page3.view.xml" />
+        <option value="$PROJECT_DIR$/web/ShellBasic2/Component.js" />
+        <option value="$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml" />
+        <option value="$PROJECT_DIR$/web/ShellBasic2/controller/Page2.controller.js" />
       </list>
     </option>
   </component>
@@ -337,68 +337,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SplitApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SplitApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SplitApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ShellBasic2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -444,24 +382,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sapui5-demo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShellBasic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,7 +455,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Anywhere_Shipping" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -550,8 +470,8 @@
       <recent name="D:\idea-work\sapui-demo2\web\login\login" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/SplitApp/view" />
       <recent name="$PROJECT_DIR$/web/ShellBasic2/view" />
+      <recent name="$PROJECT_DIR$/web/SplitApp/view" />
       <recent name="$PROJECT_DIR$/web/ShellBasic2" />
       <recent name="$PROJECT_DIR$/web/ShellBasic" />
       <recent name="D:\idea-work\sapui-demo2\web\ShellBasic" />
@@ -1072,7 +992,7 @@
       <workItem from="1464314267892" duration="3929000" />
       <workItem from="1473131415391" duration="4516000" />
       <workItem from="1474344279438" duration="13125000" />
-      <workItem from="1474968739492" duration="21957000" />
+      <workItem from="1474968739492" duration="27495000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitignore文件">
       <created>1462352572541</created>
@@ -1186,11 +1106,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475193458859</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="all">
+      <created>1475194630364</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1475194630364</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143337000" />
+    <option name="totallyTimeSpent" value="148875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1217,7 +1144,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3987952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1282,7 +1209,8 @@
     <MESSAGE value="增加ShellBasic例子" />
     <MESSAGE value="SplitApp" />
     <MESSAGE value="ShellBasic2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShellBasic2" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,20 +1231,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/tab/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/Component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/tab/controller/IconTabBar.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1591,22 +1505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/App.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" selection-start-line="17" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/Left.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/SplitApp/controller/Home.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-578">
@@ -1619,22 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SplitApp/view/Home.view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1663,10 +1545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/Component.js">
+    <entry file="file://$PROJECT_DIR$/web/SplitApp/view/Home.view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+        <state relative-caret-position="15">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -1679,10 +1561,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/App.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Left.view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/Left.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1697,16 +1603,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Page2.view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/App.view.xml">
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/controller/Page2.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="51" column="27" selection-start-line="45" selection-start-column="12" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/Component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/view/Page3.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ShellBasic2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
         </state>
       </provider>

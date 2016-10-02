@@ -1,5 +1,4 @@
 <mvc:View
-        controllerName="sap.m.sample.shellBasic2.controller.Page2"
         xmlns:l="sap.ui.layout"
         xmlns:u="sap.ui.unified"
         xmlns:mvc="sap.ui.core.mvc"
@@ -10,8 +9,8 @@
 
     <Page
             id="p1"
-            title="Page 2" >
-        <footer><Toolbar><Button text="Action 2" press="onPress"/></Toolbar></footer>
+            title="Page 3" >
+        <footer><Toolbar><Button text="Action 3" /></Toolbar></footer>
     </Page>
 
 </mvc:View>
